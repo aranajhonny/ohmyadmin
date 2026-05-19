@@ -4,11 +4,15 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Link } from 'react-router-dom'
 import { Database, Server, Activity, Clock, ChevronRight } from 'lucide-react'
+import { useAuthStore } from '@/stores/authStore'
 
 export default function HomePage() {
+  const token = useAuthStore((s) => s.token)
+
   const { data: serverInfo, isLoading, error } = useQuery({
     queryKey: ['serverInfo'],
     queryFn: api.serverInfo,
+    enabled: !!token,
   })
 
   if (isLoading) {

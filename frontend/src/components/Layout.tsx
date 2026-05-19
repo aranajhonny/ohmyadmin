@@ -38,6 +38,7 @@ export default function Layout() {
   const { data: databases = [], refetch: refetchDatabases } = useQuery({
     queryKey: ['databases'],
     queryFn: api.listDatabases,
+    enabled: !!user,
   })
 
   const { data: tables = [], refetch: refetchTables } = useQuery({
