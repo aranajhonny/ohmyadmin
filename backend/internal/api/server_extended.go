@@ -3,8 +3,8 @@ package api
 import (
 	"net/http"
 
-	"github.com/phpmyadmin/phpmyadmin/backend/internal/auth"
-	"github.com/phpmyadmin/phpmyadmin/backend/internal/database"
+	"github.com/aranajhonny/ohmyadmin/backend/internal/auth"
+	"github.com/aranajhonny/ohmyadmin/backend/internal/database"
 )
 
 type ServerExtendedHandler struct{}

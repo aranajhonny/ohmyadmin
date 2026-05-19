@@ -41,8 +41,8 @@ func TestSplitSQLStatements(t *testing.T) {
 			expected: 1,
 		},
 		{
-			name: "phpMyAdmin dump format",
-			sql: `-- phpMyAdmin SQL Dump
+			name: "OhMyAdmin dump format",
+			sql: `-- OhMyAdmin SQL Dump
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";

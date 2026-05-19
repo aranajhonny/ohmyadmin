@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/phpmyadmin/phpmyadmin/backend/internal/auth"
-	"github.com/phpmyadmin/phpmyadmin/backend/internal/models"
+	"github.com/aranajhonny/ohmyadmin/backend/internal/auth"
+	"github.com/aranajhonny/ohmyadmin/backend/internal/models"
 )
 
 type AuthHandler struct {

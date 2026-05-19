@@ -8,8 +8,8 @@ import (
 	"github.com/go-chi/chi/v5"
 	chimw "github.com/go-chi/chi/v5/middleware"
 	"github.com/go-chi/cors"
-	"github.com/phpmyadmin/phpmyadmin/backend/internal/api"
-	"github.com/phpmyadmin/phpmyadmin/backend/internal/auth"
+	"github.com/aranajhonny/ohmyadmin/backend/internal/api"
+	"github.com/aranajhonny/ohmyadmin/backend/internal/auth"
 )
 
 func New(authService *auth.Service, corsCfg cors.Options) http.Handler {

@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/phpmyadmin/phpmyadmin/backend/internal/models"
+	"github.com/aranajhonny/ohmyadmin/backend/internal/models"
 )
 
 func writeJSON(w http.ResponseWriter, status int, data interface{}) {

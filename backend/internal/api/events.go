@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/phpmyadmin/phpmyadmin/backend/internal/auth"
+	"github.com/aranajhonny/ohmyadmin/backend/internal/auth"
 )
 
 type EventsHandler struct{}

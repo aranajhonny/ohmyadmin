@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/go-chi/chi/v5"
-	"github.com/phpmyadmin/phpmyadmin/backend/internal/auth"
+	"github.com/aranajhonny/ohmyadmin/backend/internal/auth"
 )
 
 type ForeignKeysHandler struct{}

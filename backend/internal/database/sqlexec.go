@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/phpmyadmin/phpmyadmin/backend/internal/models"
+	"github.com/aranajhonny/ohmyadmin/backend/internal/models"
 )
 
 func ExecuteSQL(ctx context.Context, db *sql.DB, query string) (*models.SQLResult, error) {

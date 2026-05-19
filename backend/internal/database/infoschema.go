@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/phpmyadmin/phpmyadmin/backend/internal/models"
+	"github.com/aranajhonny/ohmyadmin/backend/internal/models"
 )
 
 func GetServerInfo(ctx context.Context, db *sql.DB) (*models.ServerInfo, error) {

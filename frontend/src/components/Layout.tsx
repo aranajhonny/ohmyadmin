@@ -188,7 +188,7 @@ export default function Layout() {
                 variant="ghost"
                 size="sm"
                 className="h-6 px-2 text-xs text-gray-700 hover:bg-gray-300"
-                title="phpMyAdmin documentation"
+                title="OhMyAdmin documentation"
               >
                 <Book className="h-3 w-3" />
               </Button>

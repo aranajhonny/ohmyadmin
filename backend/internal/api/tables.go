@@ -7,9 +7,9 @@ import (
 	"strconv"
 
 	"github.com/go-chi/chi/v5"
-	"github.com/phpmyadmin/phpmyadmin/backend/internal/auth"
-	"github.com/phpmyadmin/phpmyadmin/backend/internal/database"
-	"github.com/phpmyadmin/phpmyadmin/backend/internal/models"
+	"github.com/aranajhonny/ohmyadmin/backend/internal/auth"
+	"github.com/aranajhonny/ohmyadmin/backend/internal/database"
+	"github.com/aranajhonny/ohmyadmin/backend/internal/models"
 )
 
 type TableHandler struct{}

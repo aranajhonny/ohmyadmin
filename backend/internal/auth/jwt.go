@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/golang-jwt/jwt/v5"
-	"github.com/phpmyadmin/phpmyadmin/backend/internal/database"
-	"github.com/phpmyadmin/phpmyadmin/backend/internal/models"
+	"github.com/aranajhonny/ohmyadmin/backend/internal/database"
+	"github.com/aranajhonny/ohmyadmin/backend/internal/models"
 )
 
 type contextKey string
@@ -64,7 +64,7 @@ func (s *Service) Login(serverAddr, username, password string) (*models.LoginRes
 		RegisteredClaims: jwt.RegisteredClaims{
 			ExpiresAt: jwt.NewNumericDate(now.Add(time.Duration(s.jwtExpiration) * time.Second)),
 			IssuedAt:  jwt.NewNumericDate(now),
-			Issuer:    "phpmyadmin",
+			Issuer:    "ohmyadmin",
 		},
 		ServerKey: key,
 		Username:  mysqlUser,

@@ -1,4 +1,4 @@
-module github.com/phpmyadmin/phpmyadmin/backend
+module github.com/aranajhonny/ohmyadmin/backend
 
 go 1.22
 

@@ -11,10 +11,10 @@ import (
 	"time"
 
 	"github.com/go-chi/cors"
-	"github.com/phpmyadmin/phpmyadmin/backend/internal/auth"
-	"github.com/phpmyadmin/phpmyadmin/backend/internal/config"
-	"github.com/phpmyadmin/phpmyadmin/backend/internal/database"
-	"github.com/phpmyadmin/phpmyadmin/backend/internal/router"
+	"github.com/aranajhonny/ohmyadmin/backend/internal/auth"
+	"github.com/aranajhonny/ohmyadmin/backend/internal/config"
+	"github.com/aranajhonny/ohmyadmin/backend/internal/database"
+	"github.com/aranajhonny/ohmyadmin/backend/internal/router"
 )
 
 func main() {
@@ -33,7 +33,7 @@ func main() {
 		os.Exit(1)
 	}
 
-	slog.Info("starting phpMyAdmin backend", "host", cfg.Server.Host, "port", cfg.Server.Port)
+	slog.Info("starting OhMyAdmin backend", "host", cfg.Server.Host, "port", cfg.Server.Port)
 
 	dbManager := database.NewManager("", cfg.Database.MaxOpenConns, cfg.Database.MaxIdleConns)
 
