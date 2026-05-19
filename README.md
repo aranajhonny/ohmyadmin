@@ -12,6 +12,8 @@
 
 </div>
 
+<img width="1436" height="1052" alt="Captura de pantalla 2026-05-19 a la(s) 5 34 44 p m" src="https://github.com/user-attachments/assets/57cdc532-49b4-4085-bc94-18006888a5ca" />
+
 ---
 
 ## 🚀 Features
